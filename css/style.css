@@ -1,10 +1,29 @@
-h1{
-    color: orangered;
+*{
+    margin: 0;
 }
-h3{
-    background-color: cyan;
+
+.container{
+    border: 2px solid black;
+    text-align: center;
 }
-p{
-    color: salmon;
-    border: 2px solid red;
+.header{
+    height: 100px;
+    background-color: tomato;
+
+}
+.wrapper{
+    display: flex;
+}
+.blog{
+    width: 70%;
+    background-color: blueviolet;
+}
+.contact{
+    width: 30%;
+    height: 100px;
+    background-color: salmon;
+}
+.footer{
+    height: 100px;
+    background-color: chartreuse;
 }
